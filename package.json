@@ -1,0 +1,39 @@
+{
+  "name": "spritemap-player",
+  "version": "1.0.0",
+  "description": "spritemap-player",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aliasbonfire/spritemap-player.git"
+  },
+  "author": "x8128",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aliasbonfire/spritemap-player/issues"
+  },
+  "homepage": "https://github.com/aliasbonfire/spritemap-player#readme",
+  "scripts": {
+    "local": "cross-env APP_ENV=development webpack-dev-server",
+    "build:development": "cross-env APP_ENV=development webpack build",
+    "build:production": "cross-env APP_ENV=production webpack build"
+  },
+  "dependencies": {
+    "core-js": "^3.19.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/plugin-proposal-class-properties": "^7.16.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.16.0",
+    "@babel/plugin-transform-classes": "^7.16.0",
+    "@babel/plugin-transform-computed-properties": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "babel-loader": "^8.2.3",
+    "babel-preset-es2015-loose": "^8.0.0",
+    "cross-env": "^7.0.3",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.6.0"
+  }
+}
